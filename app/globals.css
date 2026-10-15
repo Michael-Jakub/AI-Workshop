@@ -77,3 +77,56 @@ footer {
     font-size: 1.25rem;
   }
 }
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.auth-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.auth-form input {
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid #c8c8c8;
+  border-radius: 6px;
+}
+
+button {
+  font: inherit;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #0f5f5c;
+  color: #ffffff;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+button:hover {
+  background: #0a4441;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.form-error {
+  color: #b00020;
+  background: #fdecee;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+.auth-switch,
+.logout-form {
+  margin-top: 24px;
+}
