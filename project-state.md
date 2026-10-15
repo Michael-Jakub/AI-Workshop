@@ -1,9 +1,13 @@
 # Project state
-Last updated: 2026-10-08
+Last updated: 2026-10-15
 
 ## Works
 - A Next.js site (App Router, TypeScript, plain CSS) is live on Vercel and deploys from the main branch.
 - A Supabase project exists and is linked to the repo.
+- A visitor can make an account on the live site with an email and a password of 8 or more characters, and lands on a page that says "Signed in as" followed by their email.
+- A visitor can log in, and a wrong password shows an error message instead of a crash.
+- A visitor can log out, and after that the /tasks page sends them back to the login page.
+- A visitor who closes the tab and comes back to the live site is still signed in.
 
 ## Broken or flaky
 - Nothing known to be broken. Nobody has checked this beyond what Michael reported.
