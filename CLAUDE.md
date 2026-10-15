@@ -27,6 +27,7 @@
 - Keep changes small and limited to the active slice.
 - Explain every change in plain language in the pull request description, written for someone with no coding background, so Michael can review and explain it.
 - Ask before adding any new library, service or account.
+- Before opening a pull request, update roadmap.md and project-state.md to match the work in it.
 
 ## Current focus
 See roadmap.md, work only on the slice marked ACTIVE.
