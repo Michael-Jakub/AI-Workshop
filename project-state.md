@@ -1,5 +1,5 @@
 # Project state
-Last updated: 2026-10-15
+Last updated: 2026-10-19
 
 ## Works
 - A Next.js site (App Router, TypeScript, plain CSS) is live on Vercel and deploys from the main branch.
@@ -8,6 +8,10 @@ Last updated: 2026-10-15
 - A visitor can log in, and a wrong password shows an error message instead of a crash.
 - A visitor can log out, and after that the /tasks page sends them back to the login page.
 - A visitor who closes the tab and comes back to the live site is still signed in.
+- A signed-in student can type a study task, choose High, Medium or Low, and click Add, and the task appears in their list without reloading the page.
+- The task list always shows High tasks at the top, then Medium, then Low.
+- A student who logs out and logs back in sees the same tasks they added before.
+- Each account sees only its own tasks; a second account starts with an empty list.
 
 ## Broken or flaky
 - Nothing known to be broken. Nobody has checked this beyond what Michael reported.
