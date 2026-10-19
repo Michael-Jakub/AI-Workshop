@@ -130,3 +130,78 @@ button:disabled {
 .logout-form {
   margin-top: 24px;
 }
+
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.task-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.task-form label:first-child {
+  flex: 1 1 220px;
+}
+
+.task-form input,
+.task-form select {
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid #c8c8c8;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.task-form .form-error {
+  flex-basis: 100%;
+}
+
+.task-empty,
+.task-list {
+  margin-top: 24px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.priority {
+  flex-shrink: 0;
+  min-width: 72px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.priority-high {
+  background: #fdecee;
+  color: #b00020;
+}
+
+.priority-medium {
+  background: #fff4dc;
+  color: #8a5a00;
+}
+
+.priority-low {
+  background: #e6f2f1;
+  color: #0f5f5c;
+}
