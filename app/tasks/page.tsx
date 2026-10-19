@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "../_lib/supabase";
 import { logOut } from "../_lib/auth-actions";
@@ -35,6 +36,9 @@ export default async function TasksPage() {
     <main>
       <h1>Your tasks</h1>
       <p>Signed in as {user.email}</p>
+      <p>
+        <Link href="/done">See what you have completed</Link>
+      </p>
 
       <AddTaskForm />
 
