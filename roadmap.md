@@ -9,8 +9,8 @@ A student who has never seen the site can open it, make an account, add a few st
 ## Slices
 1. Sign up and log in | done-criteria: (1) A new visitor clicks Sign up, enters an email and a password of 8 or more characters, clicks any confirmation link they are emailed, and ends on a page that says "Signed in as" followed by that email. (2) They click Log out and land on the login page; typing the site address followed by /tasks sends them back to the login page instead of the tasks page. (3) Logging in with the right email but a wrong password shows an error message, not a blank page or a crash; the right password shows "Signed in as" again. (4) They close the tab, open the live site again, and are still signed in. | status: DONE
 2. Tasks that stay | done-criteria: (1) While signed in, they type "Read chapter 4", choose High, click Add, and the task appears in the list without reloading. (2) They add a Low task and then a High task; both High tasks show above the Low one. (3) They log out, log back in, and the same tasks are there. (4) A second account sees an empty list, with none of the first account's tasks. | status: DONE
-3. Finish and get rewarded | done-criteria: (1) Ticking the box next to a task shows a congratulations message and moves the task to a Done section, crossed out. (2) The "Tasks completed" counter at the top goes up by one for each task ticked. (3) After a page reload, the counter shows the same number and finished tasks are still in Done. | status: pending
-4. Completed by week | done-criteria: (1) I can click on a new column logging the past week's activities. | status: ACTIVE
+3. Finish and get rewarded | done-criteria: (1) Ticking the box next to a task shows a congratulations message and moves the task to a Done section, crossed out. (2) The "Tasks completed" counter at the top goes up by one for each task ticked. (3) After a page reload, the counter shows the same number and finished tasks are still in Done. | status: ACTIVE
+4. Completed by week | done-criteria: (1) I can click on a new column logging the past week's activities. | status: DONE
 
 ## Backlog
 - Due dates
